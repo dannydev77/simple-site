@@ -21,6 +21,6 @@ jobs:
             server: ${{ secrets.FTP_SERVER }}
             username: ${{ secrets.FTP_USER }}
             password: ${{ secrets.FTP_PASSWORD }}
-            server-dir: /public_html
+            server-dir: /public_html/
             exclude: .git,README.md
   
